@@ -1,8 +1,8 @@
-package com.itheima.fileTest;
+package com.itheima.stringBuilder;
 
 public class stringBuilderTest {
     public static void main(String[] args) {
-        System.out.println("filetest");
+        System.out.println("fileTest");
         //字符串String 特点，一旦创建不能改变
         String s1 = "a";
         String s2 = "b";
@@ -19,7 +19,7 @@ public class stringBuilderTest {
         String newStr = sb.toString();
     }
 }
-/**
+/*
  总结：
     1.如果拼接的字符串都是常量，符合常量优化机制
     2.如果拼接字符串有变量存在：
